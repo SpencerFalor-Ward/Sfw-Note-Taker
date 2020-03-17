@@ -30,6 +30,14 @@ app.use(express.json());
 require('./js/apiRoutes')(app);
 require('./js/htmlRoutes')(app);
 
+//code to connect the notes.html to the db.json
+const noteData = require('../../../db/db');
+fs.writeFile(__dirname, noteData, (err)=>{
+    if (err) throw (err);
+    console.log ('This file has been saved');
+});
+
+
 // =============================================================================
 // LISTENER
 // The below code effectively "starts" our server

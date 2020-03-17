@@ -1,4 +1,5 @@
-const noteData = require('../../../db/db');
+const path = require('path');
+const noteData = path.join(__dirname, "../../../db/db");
 
 
 module.exports = function(app) {
