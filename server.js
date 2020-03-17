@@ -4,7 +4,8 @@
 // ==============================================================================
 
 var express = require('express');
-const fs = require('fs');
+
+var fs = require('fs');
 
 // ==============================================================================
 // EXPRESS CONFIGURATION
@@ -27,11 +28,11 @@ app.use(express.json());
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-require('./js/apiRoutes')(app);
-require('./js/htmlRoutes')(app);
+require('/apiRoutes')(app);
+require('/htmlRoutes')(app);
 
 //code to connect the notes.html to the db.json
-const noteData = require('../../../db/db');
+var noteData = require('../../../db/db');
 fs.writeFile(__dirname, noteData, (err)=>{
     if (err) throw (err);
     console.log ('This file has been saved');

@@ -1,5 +1,5 @@
-const path = require('path');
-const noteData = path.join(__dirname, "../../../db/db");
+var path = require('path');
+var noteData = path.join(__dirname, "../db/db");
 
 
 module.exports = function(app) {
@@ -8,7 +8,7 @@ module.exports = function(app) {
 		res.json(noteData);
 	});
 	app.post('/api/notes', function(req, res) {
-		const newNote = req.body;
+		var newNote = req.body;
 		//adds the JSON the user sent
 		noteData.push(newNote);
 
@@ -18,7 +18,7 @@ module.exports = function(app) {
     });
     // delets note with 'id'
 	app.delete('/api/notes/:id', function(req, res) {
-		const deleteNote = req.params.id;
+		var deleteNote = req.params.id;
 
 		console.log(deleteNote);
 
