@@ -28,16 +28,15 @@ app.use(express.json());
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-require('/apiRoutes')(app);
-require('/htmlRoutes')(app);
+require('./apiRoutes')(app);
+require('./htmlRoutes')(app);
 
 //code to connect the notes.html to the db.json
-var noteData = require('../../../db/db');
-fs.writeFile(__dirname, noteData, (err)=>{
-    if (err) throw (err);
-    console.log ('This file has been saved');
+var noteData = require('./db/db');
+fs.writeFile(__dirname, noteData, err => {
+	if (err) throw err;
+	console.log('This file has been saved');
 });
-
 
 // =============================================================================
 // LISTENER
