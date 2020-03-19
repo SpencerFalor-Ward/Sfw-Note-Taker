@@ -2,7 +2,7 @@
 
 ![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
-## HW-10-noteTaker![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+## HW-10-noteTaker ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
 
 An web based app to take, save and delete notes hosted on a local server
 
