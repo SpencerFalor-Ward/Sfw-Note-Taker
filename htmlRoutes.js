@@ -3,7 +3,7 @@
 // We need to include the path package to get the correct file path for our html
 // ===============================================================================
 var path = require('path');
-const public = path.join(__dirname,"./public" )
+const public = path.join(__dirname, './public');
 // ===============================================================================
 // ROUTING
 // ===============================================================================
@@ -15,7 +15,7 @@ module.exports = function(app) {
 	// ---------------------------------------------------------------------------
 
 	app.get('/index', function(req, res) {
-		res.sendFile(path.join(public,'index.html'));
+		res.sendFile(path.join(public, 'index.html'));
 	});
 
 	app.get('/notes', function(req, res) {
@@ -27,3 +27,4 @@ module.exports = function(app) {
 		res.sendFile(path.join(public, 'index.html'));
 	});
 };
+console.log('Test');

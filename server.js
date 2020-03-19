@@ -5,9 +5,6 @@
 
 var express = require('express');
 
-var fs = require('fs');
-var async = require('async');
-
 // ==============================================================================
 // EXPRESS CONFIGURATION
 // This sets up the basic properties for our express server
@@ -31,13 +28,6 @@ app.use(express.json());
 
 require('./apiRoutes')(app);
 require('./htmlRoutes')(app);
-
-//code to connect the notes.html to the db.json
-var noteData = require('./db/db');
-fs.writeFile(__dirname, noteData, err => {
-	if (err) throw err;
-	console.log('This file has been saved');
-});
 
 // =============================================================================
 // LISTENER
