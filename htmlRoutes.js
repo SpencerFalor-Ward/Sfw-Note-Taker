@@ -3,7 +3,7 @@
 // We need to include the path package to get the correct file path for our html
 // ===============================================================================
 var path = require('path');
-const public = path.join(__dirname, './public');
+var public = path.join(__dirname, './public');
 // ===============================================================================
 // ROUTING
 // ===============================================================================
