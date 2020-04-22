@@ -1,6 +1,5 @@
 # :boom: Welcome to SpencerFalor-Ward's HW-10-noteTaker:boom:
 
-![photo](https://avatars0.githubusercontent.com/u/56806215?v=4)
 
 ## HW-10-noteTaker ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
 
