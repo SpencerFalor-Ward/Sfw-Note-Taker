@@ -1,7 +1,7 @@
 # :boom: Welcome to SpencerFalor-Ward's HW-10-noteTaker:boom:
 
 
-## HW-10-noteTaker ![WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+[![Followers](https://img.shields.io/github/followers/SpencerFalor-Ward?style=social)](https://github.com/SpencerFalor-Ward?tab=followers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Language](https://img.shields.io/github/languages/top/SpencerFalor-Ward/Sfw-Note-Taker)](https://github.com/SpencerFalor-Ward/Sfw-Note-Taker/search?l=javascript) [![Latest Commit](https://img.shields.io/github/last-commit/SpencerFalor-Ward/Sfw-Note-Taker)](https://github.com/SpencerFalor-Ward/Sfw-Note-Taker/graphs/commit-activity)
 
 An web based app to take, save and delete notes hosted on a local server
 
@@ -25,7 +25,7 @@ Input a title, input the note, save and delete notes within the browser based ap
 
 ## Liscence
 
-Na
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license.
 
 ## Contributing
 
@@ -41,4 +41,4 @@ git at me
 
 ## Contact
 
-mailto:srfalorward@ucdavis.edu
+srpfw19@gmail.com
