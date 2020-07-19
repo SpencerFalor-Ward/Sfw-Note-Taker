@@ -9,7 +9,7 @@ An web based app to take, save and delete notes hosted on a local server
 
 -   [Installation](#Installation)
 -   [Usage](#Usage)
--   [Liscence](#Liscence)
+-   [License](#License)
 -   [Contributing](#Contributing)
 -   [Test](#Test)
 -   [Questions](#Questions)
@@ -23,7 +23,7 @@ Node package manager using Express, Path and File system
 
 Input a title, input the note, save and delete notes within the browser based app
 
-## Liscence
+## License
 
 Licensed under the [MIT License](https://choosealicense.com/licenses/mit/) license.
 
